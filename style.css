@@ -41,7 +41,11 @@ body{
     padding: 10px 0;
     font-size: 1.5rem;
 }
-button{
+.card p{
+    font-size: 1rem;
+    color: #666;
+}
+a{
     margin: 1rem 0;
     background: #333;
     color: #fff;
@@ -51,7 +55,8 @@ button{
     padding: 1rem;
     font-size: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
-button:hover{
+a:hover{
     background: #000;
 }
