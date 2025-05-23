@@ -6,9 +6,19 @@
 h1{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     font-weight: 900;
     font-size: 3rem;
     color: #fff;
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+h2{
+    margin-top: 1rem;
+    color: white;
+    margin-left: 2rem;
+    padding-left: 10px;
+    border-left: 0.1rem solid #fff;
+
 }
 *::selection{
     color: #333;
@@ -17,7 +27,7 @@ h1{
 body{
     background: #333;
 }
-.container{
+.card-container{
     padding: 2rem ;
     display: flex;
     flex-wrap: wrap;
