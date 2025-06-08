@@ -72,6 +72,7 @@ a:hover{
 }
 
 .box-container{
+    border-bottom: 1px solid #666;
     padding: 2rem 9%;
     display: flex;
     flex-direction: column;
